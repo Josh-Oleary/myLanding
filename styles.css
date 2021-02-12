@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+#info {
+    color: rgb(185, 177, 177);
+    padding-top: 8rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#info h1 {
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+#info p {
+    text-align: center;
+}
+
+#buddhaPic {
+    padding-left: 10px;
+    filter: grayscale(1);
+    transition: 1.5s;
+}
+
+#buddhaPic:hover {
+    transform: scale(1.1);
+    transition: 1.5s;
+    filter: grayscale(0)
+}
+#content {
+    padding-top: 2rem;
+}
+
+hr {
+   
+    color: rgb(185, 177, 177);
+}
+
+@media (max-width: 500px) {
+    #buddhaPic {
+        transform: scale(.8);
+        padding-left: 0px;
+    }
+}
+@media (max-width: 900px) {
+    #buddhaPic {
+        transform: scale(.9);
+    }
+}
+#name, #email, #inputAddress, #inputCity, #inputState, #inputZip{
+    color: rgb(185, 177, 177);
+}
+
+#button {
+    margin-top: 1rem;
+}
