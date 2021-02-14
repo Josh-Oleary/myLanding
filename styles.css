@@ -36,6 +36,12 @@ hr {
     color: rgb(185, 177, 177);
 }
 
+#formHeading {
+    color: rgb(185, 177, 177);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
 @media (max-width: 500px) {
     #buddhaPic {
         transform: scale(.8);
